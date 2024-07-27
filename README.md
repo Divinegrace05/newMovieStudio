@@ -129,8 +129,8 @@ markets.
 4. **README.md**: This file, which provides an overview of the project.
 
 ## Repository Structure
-kotlin
-Copy code
+- kotlin
+- Copy code
 ├── data
 │ ├── bom.movie_gross.csv.gz
 │ ├── rt.movie_info.tsv.gz
