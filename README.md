@@ -23,11 +23,7 @@ Your company is venturing into the movie industry by creating a new movie studio
 ## Data Understanding and Analysis
 
 ### Source of Data
-The data for this project is sourced from:
-- Box Office Mojo
-- IMDB
-- Rotten Tomatoes
-- TheMovieDB.org
+[Data Sources](https://www.boxofficemojo.com, https://www.imdb.com, https://www.rottentomatoes.com, https://www.themoviedb.org)
 
 #### The datasets used for this analysis include:
 - bom.movie_gross.csv.gz: Box office gross data from Box Office Mojo.
@@ -117,8 +113,7 @@ markets.
 
 ## Links
 - [Presentation](presentation/movieStudioPresentation.pdf)
-- [Notebook](notebooks/Phase2.ipynb)
-- [Data Sources](https://www.boxofficemojo.com, https://www.imdb.com, https://www.rottentomatoes.com, https://www.themoviedb.org)
+- [Notebook](Phase2.ipynb)
 
 
 ## Repository Navigation Instructions
