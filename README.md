@@ -6,7 +6,8 @@ Authors:
 3. Peter Mbuthia
 4. Paullet Ndeda
 
-![movieStudio.jpg](attachment:movieStudio.jpg)
+ ![movieStudio](https://github.com/user-attachments/assets/226733c5-363e-4f29-bcb0-52f3d49b8d5f)
+
 
 ## Overview
 
