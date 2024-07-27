@@ -1,12 +1,6 @@
 # NEW MOVIE STUDIO
 
-Authors:
-1. Grace Gitau
-2. Zachariah Komu
-3. Peter Mbuthia
-4. Paullet Ndeda
-
- ![movieStudio](https://github.com/user-attachments/assets/226733c5-363e-4f29-bcb0-52f3d49b8d5f)
+![movieStudio](https://github.com/user-attachments/assets/226733c5-363e-4f29-bcb0-52f3d49b8d5f)
 
 
 ## Overview
@@ -56,7 +50,45 @@ The datasets include various columns such as:
 17. **Rating Certificate**: The movie's certification rating (e.g., PG, R).
 18. **Synopsis**: A brief summary of the movie's plot.
 
-### Visualizations
+## Data Understanding
+### Data Description
+#### The datasets used for this analysis include:
+● bom.movie_gross.csv.gz: Box office gross data from Box Office Mojo.
+● rt.movie_info.tsv.gz: Movie information from Rotten Tomatoes.
+● rt.reviews.tsv.gz: Movie reviews from Rotten Tomatoes.
+● tmdb.movies.csv.gz: Movie data from The Movie Database (TMDB).
+● tn.movie_budgets.csv.gz: Movie budgets from The Numbers.
+● im.db: Additional movie data from IMDB.
+
+## Data Preparation
+### The datasets were cleaned and merged as necessary. Steps included:
+1. Loading and inspecting the datasets.
+2. Handling missing values and correcting data types.
+3. Merging datasets on common keys such as movie titles and release dates.
+
+## Data Analysis
+### The analysis addressed the following key questions:
+1. Best Release Seasons: Analyzed box office performance by release month to identify
+optimal seasons.
+2. Successful Genres: Evaluated the popularity and box office success of different genres.
+3. Runtime and Budget Analysis: Investigated the impact of movie runtime and
+production budget on box office performance.
+
+## Results
+### Key Findings
+1. Optimal Release Timing:
+Movies released during the summer (June to August) and winter holiday seasons
+(November to December) tend to perform better in terms of domestic gross.
+2. Genre Performance:
+Action, adventure, and family-friendly genres show high popularity and
+profitability. These genres have broad audience appeal and tend to receive
+higher box office revenue and better reviews.
+3. Budget and Runtime Optimization:
+Movies with moderate budgets (between $30M to $100M) and runtimes of 90 to
+120 minutes tend to achieve a good balance between production cost and box
+office revenue.
+
+## Visualizations
 
 1. **Best Season to Release Movies**
    ![movieSeasons](https://github.com/user-attachments/assets/3d6c0da6-cb63-4d32-8ece-3879019b5d4f)
@@ -69,21 +101,27 @@ The datasets include various columns such as:
 ![runtime](https://github.com/user-attachments/assets/7285ee07-0a78-4cd5-9a42-3ba73cd4f381)
 
 
-## Conclusion
+## Business Recommendations
+1. Release Timing: Focus on scheduling major movie releases during the summer and
+winter holiday seasons to maximize box office returns.
+2. Genre Focus: Prioritize the production of action, adventure, and family-friendly movies.
+These genres have a proven track record of success and offer higher potential returns.
+3. Budget and Runtime: Optimize production budgets to fall within the $30M to $100M
+range and aim for movie runtimes between 90 to 120 minutes. This strategy balances
+cost and potential revenue, enhancing profitability.
 
-### Summary of Conclusions
-1. **Best Season to Release Movies**: Movies released in December tend to perform better in global gross revenue.
-2. **Most Successful Genre**: Sci-Fi movies show the highest average domestic gross, followed by Adventure, Animation, and Action.
-3. **Relationship Between Runtime and Financial Metrics**: There is a positive correlation between movie runtime and worldwide gross revenues, though the relationship is not strong. Production budget shows a stronger positive relationship with worldwide gross.
+## Next Steps
+1. Further Genre Analysis: Conduct a deeper dive into sub-genres to identify niche
+markets.
+2. Marketing Strategy: Analyze the impact of marketing spend on movie success.
+3. International Markets: Explore box office performance trends in international markets.
 
-### Recommendations
-- Focus on producing Sci-Fi, Adventure, and Animation movies to maximize domestic gross.
-- Consider releasing films during December to leverage the peak season for higher revenues.
 
 ## Links
-- [Presentation Slides](path/to/your/presentation.pptx)
-- [Jupyter Notebook](path/to/your/notebook.ipynb)
+- [Presentation](presentation/movieStudioPresentation.pdf)
+- [Notebook](notebooks/Phase2.ipynb)
 - [Data Sources](https://www.boxofficemojo.com, https://www.imdb.com, https://www.rottentomatoes.com, https://www.themoviedb.org)
+
 
 ## Repository Navigation Instructions
 
@@ -92,3 +130,19 @@ The datasets include various columns such as:
 3. **Slides**: Presentation slides summarizing the project findings.
 4. **README.md**: This file, which provides an overview of the project.
 
+## Repository Structure
+kotlin
+Copy code
+├── data
+│ ├── bom.movie_gross.csv.gz
+│ ├── rt.movie_info.tsv.gz
+│ ├── rt.reviews.tsv.gz
+│ ├── tmdb.movies.csv.gz
+│ ├── tn.movie_budgets.csv.gz
+│ └── im.db
+├── notebooks
+│ ├── data_preparation.ipynb
+│ ├── data_analysis.ipynb
+│ └── business_recommendations.ipynb
+├── README.md
+└── requirements.txt
