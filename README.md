@@ -117,7 +117,7 @@ markets.
 
 
 ## Links
-- [Presentation](presentation/movieStudioPresentation.pdf)
+- [Presentation](https://www.canva.com/design/DAGMJ2qyf1Y/MgGOPKwV9VkOCHNHMHFkkw/edit?utm_content=DAGMJ2qyf1Y&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 - [Notebook](Phase2.ipynb)
 
 
