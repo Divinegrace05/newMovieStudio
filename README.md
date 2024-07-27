@@ -1,4 +1,4 @@
-# New Movie Studio
+# NEW MOVIE STUDIO
 
 Authors:
 1. Grace Gitau
@@ -58,18 +58,20 @@ The datasets include various columns such as:
 ### Visualizations
 
 1. **Best Season to Release Movies**
-   ![Best Season to Release Movies](path/to/your/plot1.png)
+   ![movieSeasons](https://github.com/user-attachments/assets/3d6c0da6-cb63-4d32-8ece-3879019b5d4f)
 
 2. **Most Successful Genre**
-   ![Most Successful Genre](path/to/your/plot2.png)
+  ![successfulGenre](https://github.com/user-attachments/assets/958eb54f-704f-4823-8b56-42b4082a5243)
+
 
 3. **Runtime vs Domestic Gross, Worldwide Gross, and Production Budget**
-   ![Runtime vs Gross and Budget](path/to/your/plot3.png)
+![runtime](https://github.com/user-attachments/assets/7285ee07-0a78-4cd5-9a42-3ba73cd4f381)
+
 
 ## Conclusion
 
 ### Summary of Conclusions
-1. **Best Season to Release Movies**: Movies released in December tend to perform better in terms of global gross revenue.
+1. **Best Season to Release Movies**: Movies released in December tend to perform better in global gross revenue.
 2. **Most Successful Genre**: Sci-Fi movies show the highest average domestic gross, followed by Adventure, Animation, and Action.
 3. **Relationship Between Runtime and Financial Metrics**: There is a positive correlation between movie runtime and worldwide gross revenues, though the relationship is not strong. Production budget shows a stronger positive relationship with worldwide gross.
 
@@ -84,9 +86,8 @@ The datasets include various columns such as:
 
 ## Repository Navigation Instructions
 
-1. **Data**: Contains raw and processed data files.
+1. **zippedData**: Contains raw and processed data files.
 2. **Notebooks**: Jupyter notebooks with analysis and visualizations.
 3. **Slides**: Presentation slides summarizing the project findings.
 4. **README.md**: This file, which provides an overview of the project.
 
-Feel free to explore the repository and use the provided materials to understand the trends in the movie industry and make informed decisions for the new studio.
