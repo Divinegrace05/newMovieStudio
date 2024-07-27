@@ -23,17 +23,12 @@ Your company is venturing into the movie industry by creating a new movie studio
 ## Data Understanding and Analysis
 
 ### Source of Data
-- ![Box Office Mojo](https://www.boxofficemojo.com)
-- ![IMDB](https://www.imdb.com)
-- ![Rotten Tomatoes](https://www.rottentomatoes.com)
-- ![TheMovieDB](https://www.themoviedb.org)
-- -[The Numbers](https://www.the-numbers.com)
+1. ![Box Office Mojo](https://www.boxofficemojo.com)
+2. ![IMDB](https://www.imdb.com)
+3. ![Rotten Tomatoes](https://www.rottentomatoes.com)
+4. ![TheMovieDB](https://www.themoviedb.org)
+5. [The Numbers](https://www.the-numbers.com)
 
-Box Office MojoLinks to an external site.
-IMDBLinks to an external site.
-Rotten TomatoesLinks to an external site.
-TheMovieDBLinks to an external site.
-The NumbersLinks to an external site.
 
 #### The datasets used for this analysis include:
 - bom.movie_gross.csv.gz: Box office gross data from Box Office Mojo.
