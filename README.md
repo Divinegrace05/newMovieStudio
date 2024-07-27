@@ -89,24 +89,24 @@ office revenue.
 
 ## Visualizations
 
-1. **Best Season to Release Movies**   ![movieSeasons](https://github.com/user-attachments/assets/3d6c0da6-cb63-4d32-8ece-3879019b5d4f)
-   
+1. **Best Season to Release Movies**
+![movieSeasons](https://github.com/user-attachments/assets/3d6c0da6-cb63-4d32-8ece-3879019b5d4f)
 - The analysis shows that movies released during the summer (June to August) and winter holidays (November to December) tend to perform better in terms of domestic gross.
 
 
-2. **Most Successful Genre**  ![successfulGenre](https://github.com/user-attachments/assets/958eb54f-704f-4823-8b56-42b4082a5243)
-
+2. **Most Successful Genre**
+![successfulGenre](https://github.com/user-attachments/assets/958eb54f-704f-4823-8b56-42b4082a5243)
 - Sci-Fi, Adventure, and Animation genres show high popularity and profitability. These genres have broad audience appeal and tend to receive higher box office revenue and better reviews.
 
 
 
-3. **Runtime vs Domestic Gross, Worldwide Gross, and Production Budget** ![runtime](https://github.com/user-attachments/assets/7285ee07-0a78-4cd5-9a42-3ba73cd4f381)
-
+3. **Runtime vs Domestic Gross, Worldwide Gross, and Production Budget**
+![runtime](https://github.com/user-attachments/assets/7285ee07-0a78-4cd5-9a42-3ba73cd4f381)
 - The analysis indicates that movies with moderate budgets (between 30𝑀𝑡𝑜30𝑀𝑡𝑜100M) and runtimes of 90 to 120 minutes tend to achieve a good balance between production cost and box office revenue.
 
 
-4. Correlation Heatmap of Movie Variables ![corr](https://github.com/user-attachments/assets/972f7a00-ced6-43c8-8be3-96c9503de3be)
-
+4. Correlation Heatmap of Movie Variables
+![corr](https://github.com/user-attachments/assets/972f7a00-ced6-43c8-8be3-96c9503de3be)
 - A strong positive correlation exists between the production budget and domestic and worldwide gross revenues, indicating that higher budgets tend to result in higher earnings. Additionally, the runtime shows a moderate positive correlation with worldwide gross, suggesting that longer movies may achieve greater global revenue, though this relationship is weaker for domestic gross. Overall, these insights suggest that investing in higher production budgets and potentially longer runtimes could be associated with better financial performance, providing valuable guidance for future movie production strategies.
 
 
