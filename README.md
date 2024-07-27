@@ -29,6 +29,14 @@ The data for this project is sourced from:
 - Rotten Tomatoes
 - TheMovieDB.org
 
+#### The datasets used for this analysis include:
+- bom.movie_gross.csv.gz: Box office gross data from Box Office Mojo.
+- rt.movie_info.tsv.gz: Movie information from Rotten Tomatoes.
+- rt.reviews.tsv.gz: Movie reviews from Rotten Tomatoes.
+- tmdb.movies.csv.gz: Movie data from The Movie Database (TMDB).
+- tn.movie_budgets.csv.gz: Movie budgets from The Numbers.
+- im.db: Additional movie data from IMDB.
+
 ### Description of Data
 The datasets include various columns such as:
 1. **Movie Title**: The title of the movie.
@@ -49,16 +57,6 @@ The datasets include various columns such as:
 16. **Awards**: Any awards won by the movie.
 17. **Rating Certificate**: The movie's certification rating (e.g., PG, R).
 18. **Synopsis**: A brief summary of the movie's plot.
-
-## Data Understanding
-### Data Description
-#### The datasets used for this analysis include:
-● bom.movie_gross.csv.gz: Box office gross data from Box Office Mojo.
-● rt.movie_info.tsv.gz: Movie information from Rotten Tomatoes.
-● rt.reviews.tsv.gz: Movie reviews from Rotten Tomatoes.
-● tmdb.movies.csv.gz: Movie data from The Movie Database (TMDB).
-● tn.movie_budgets.csv.gz: Movie budgets from The Numbers.
-● im.db: Additional movie data from IMDB.
 
 ## Data Preparation
 ### The datasets were cleaned and merged as necessary. Steps included:
