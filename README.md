@@ -128,19 +128,3 @@ markets.
 3. **Slides**: Presentation slides summarizing the project findings.
 4. **README.md**: This file, which provides an overview of the project.
 
-## Repository Structure
-- kotlin
-- Copy code
-├── data
-│ ├── bom.movie_gross.csv.gz
-│ ├── rt.movie_info.tsv.gz
-│ ├── rt.reviews.tsv.gz
-│ ├── tmdb.movies.csv.gz
-│ ├── tn.movie_budgets.csv.gz
-│ └── im.db
-├── notebooks
-│ ├── data_preparation.ipynb
-│ ├── data_analysis.ipynb
-│ └── business_recommendations.ipynb
-├── README.md
-└── requirements.txt
