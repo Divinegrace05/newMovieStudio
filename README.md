@@ -27,7 +27,7 @@ Your company is venturing into the movie industry by creating a new movie studio
 2. ![IMDB](https://www.imdb.com)
 3. ![Rotten Tomatoes](https://www.rottentomatoes.com)
 4. ![TheMovieDB](https://www.themoviedb.org)
-5. [The Numbers](https://www.the-numbers.com)
+5. ![The Numbers](https://www.the-numbers.com)
 
 
 #### The datasets used for this analysis include:
