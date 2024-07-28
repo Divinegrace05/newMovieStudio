@@ -128,7 +128,7 @@ markets.
 
 ## Links
 - [Presentation](https://www.canva.com/design/DAGMJ2qyf1Y/MgGOPKwV9VkOCHNHMHFkkw/edit?utm_content=DAGMJ2qyf1Y&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-- [Tableau]()
+- [Tableau](https://public.tableau.com/app/profile/grace.gitau7415/viz/MovieStudioAnalysis_17221925110130/Dashboard1?publish=yes)
 
 
 ## Repository Navigation Instructions
